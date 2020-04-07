@@ -40,3 +40,7 @@ label.custom-control.custom-checkbox.not-valid {
 label.custom-control.custom-checkbox.not-valid.checked {
     color: currentColor;
 }
+
+button.btn.btn-primary.wpcf7-submit:disabled {
+    cursor: not-allowed;
+}

@@ -15,7 +15,7 @@ jQuery(document).ready(function ($) {
         $('.wpcf7-response-output').removeClass('alert-danger');
     }, false);
 
-    
+
     // Acceptance
     if (!$('.wpcf7-response-output.wpcf7-display-none').hasClass('wpcf7-acceptance-missing')) {
         $('.wpcf7-response-output.wpcf7-display-none').addClass('alert alert-danger')
@@ -34,6 +34,15 @@ jQuery(document).ready(function ($) {
             $('label.custom-control.custom-checkbox').addClass('checked');
         } else {
             $('label.custom-control.custom-checkbox.not-valid').removeClass('checked');
+        }
+    });
+
+    // Disable Send Button
+    $('input#2').click(function () {
+        if ($('button.btn.btn-primary.wpcf7-submit').is(':disabled')) {
+            $('button.btn.btn-primary.wpcf7-submit').removeAttr('disabled');
+        } else {
+            $('button.btn.btn-primary.wpcf7-submit').attr('disabled', 'disabled');
         }
     });
 
