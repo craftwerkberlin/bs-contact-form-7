@@ -46,4 +46,9 @@ jQuery(document).ready(function ($) {
         }
     });
 
+    // Disable Send Button after successfull sending
+    document.addEventListener('wpcf7mailsent', function (event) {
+        $('button.btn.btn-primary.wpcf7-submit').attr('disabled', 'disabled');
+    }, false);
+
 }); // jQuery End
