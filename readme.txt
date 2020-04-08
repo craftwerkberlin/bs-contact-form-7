@@ -5,7 +5,7 @@ Contributors: craftwerk
 Requires at least: 4.5
 Tested up to: 5.3.2
 Requires PHP: 5.6
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,10 @@ This adds Bootstrap Alerts, Custom Radio and Checkboxes to Contact Form 7, Copyr
 Use HTML Markup like here https://bootscore.me/plugins/contact-form-7-for-bootscore/
 
 == Changelog ==
+
+    = 1.0.2 - April 08 2020 =
+    
+        * Changed Button Ajax Loder from spinner-grow to spinner-border (iOS not working)
 
     = 1.0.1 - April 07 2020 =
     

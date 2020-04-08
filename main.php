@@ -5,7 +5,7 @@
  * Description: Adds Bootstrap Alerts to Contact Form 7
  * Author: Bastian Kreiter
  * Author URI: https://crftwrk.de
- * Version: 1.0.0
+ * Version: 1.0.2
  */
 
 

@@ -11,13 +11,16 @@ div.wpcf7 .ajax-loader {
     width: 0rem;
     height: 1rem;
     vertical-align: text-bottom;
-    margin: 0;
-    transition: margin .3s, width .3s;
+    margin: 0 0 0 -.3rem;
+    opacity: 0;
+    transition: margin .3s, width .3s, opacity .1s;
 }
 
 div.wpcf7 .ajax-loader.is-active {
     margin: 0 .5rem 0 0;
+    opacity: 1;
     width: 1rem !important;
+    transition: margin .3s, width .3s, opacity .3s .3s ease;
 }
 
 .screen-reader-response {
