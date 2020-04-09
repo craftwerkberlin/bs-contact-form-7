@@ -13,6 +13,7 @@ jQuery(document).ready(function ($) {
     document.addEventListener('wpcf7mailsent', function (event) {
         $('.wpcf7-response-output').addClass('alert alert-success');
         $('.wpcf7-response-output').removeClass('alert-danger');
+        $('button.btn.btn-primary.wpcf7-submit').attr('disabled', 'disabled');
     }, false);
 
 
@@ -45,10 +46,5 @@ jQuery(document).ready(function ($) {
             $('button.btn.btn-primary.wpcf7-submit').attr('disabled', 'disabled');
         }
     });
-
-    // Disable Send Button after successfull sending
-    document.addEventListener('wpcf7mailsent', function (event) {
-        $('button.btn.btn-primary.wpcf7-submit').attr('disabled', 'disabled');
-    }, false);
 
 }); // jQuery End
