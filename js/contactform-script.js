@@ -30,7 +30,7 @@ jQuery(document).ready(function ($) {
     }, false);
 
 
-    $('input#2').change(function () {
+    $('input#gdpr').change(function () {
         if ($(this).is(":checked")) {
             $('label.custom-control.custom-checkbox').addClass('checked');
         } else {
@@ -39,7 +39,7 @@ jQuery(document).ready(function ($) {
     });
 
     // Disable Send Button
-    $('input#2').click(function () {
+    $('input#gdpr').click(function () {
         if ($('button.btn.btn-primary.wpcf7-submit').is(':disabled')) {
             $('button.btn.btn-primary.wpcf7-submit').removeAttr('disabled');
         } else {
