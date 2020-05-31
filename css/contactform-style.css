@@ -10,7 +10,6 @@ div.wpcf7 .ajax-loader {
     background-image: none;
     width: 0rem;
     height: 1rem;
-    vertical-align: text-bottom;
     margin: 0 0 0 -.3rem;
     opacity: 0;
     transition: margin .3s, width .3s, opacity .1s;
