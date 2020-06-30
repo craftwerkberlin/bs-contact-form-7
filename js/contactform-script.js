@@ -13,7 +13,7 @@ jQuery(document).ready(function ($) {
     document.addEventListener('wpcf7mailsent', function (event) {
         $('.wpcf7-response-output').addClass('alert alert-success');
         $('.wpcf7-response-output').removeClass('alert-danger');
-        $('button.btn.btn-primary.wpcf7-submit').attr('disabled', 'disabled');
+        $('button.wpcf7-submit').attr('disabled', 'disabled');
     }, false);
 
 
@@ -40,10 +40,10 @@ jQuery(document).ready(function ($) {
 
     // Disable Send Button
     $('input#gdpr').click(function () {
-        if ($('button.btn.btn-primary.wpcf7-submit').is(':disabled')) {
-            $('button.btn.btn-primary.wpcf7-submit').removeAttr('disabled');
+        if ($('button.wpcf7-submit').is(':disabled')) {
+            $('button.wpcf7-submit').removeAttr('disabled');
         } else {
-            $('button.btn.btn-primary.wpcf7-submit').attr('disabled', 'disabled');
+            $('button.wpcf7-submit').attr('disabled', 'disabled');
         }
     });
 
