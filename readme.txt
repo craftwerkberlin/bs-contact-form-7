@@ -23,7 +23,7 @@ Use HTML Markup like here https://bootscore.me/plugins/contact-form-7-for-bootsc
 
 == Changelog ==
 
-    = 1.0.5 - June 30 2020 =
+    = 1.0.6 - June 30 2020 =
     
         * Removed .btn.btn-primary from script. Now you can change the classes for example to btn-outline-primary, but keep class wpcf7-submit in send-button.
 
