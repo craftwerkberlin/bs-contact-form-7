@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Contact Form 7 for bootScore
+ * Plugin Name: bS Contact Form 7
  * Plugin URI: https://bootscore.me/plugins/contact-form-7-for-bootscore/
- * Description: Adds Bootstrap Alerts to Contact Form 7
+ * Description: Adds Bootstrap Alerts to Contact Form 7. It´s an additional plugin and needs https://de.wordpress.org/plugins/contact-form-7/ to work.
  * Author: Bastian Kreiter
  * Author URI: https://crftwrk.de
  * Version: 1.0.6

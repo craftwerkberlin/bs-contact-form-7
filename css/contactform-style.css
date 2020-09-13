@@ -26,6 +26,7 @@ div.wpcf7 .ajax-loader.is-active {
     display: none;
 }
 
+
 .wpcf7-display-none {
     display: none;
 }
@@ -45,3 +46,4 @@ label.custom-control.custom-checkbox.not-valid.checked {
 button.btn.btn-primary.wpcf7-submit:disabled {
     cursor: not-allowed;
 }
+
