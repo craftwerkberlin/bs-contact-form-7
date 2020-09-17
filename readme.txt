@@ -3,13 +3,13 @@
 Contributors: craftwerk
 
 Requires at least: 4.5
-Tested up to: 5.3.2
+Tested up to: 5.5
 Requires PHP: 5.6
-Stable tag: 1.0.6
+Stable tag: 1.0.7
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-This adds Bootstrap Alerts, Custom Radio and Checkboxes to Contact Form 7, Copyright 2020 Bastian Kreiter.
+This adds Bootstrap alerts, custom Radio and checkboxes to Contact Form 7, Copyright 2020 Bastian Kreiter.
 
 == Installation ==
 
@@ -23,7 +23,11 @@ Use HTML Markup like here https://bootscore.me/plugins/contact-form-7-for-bootsc
 
 == Changelog ==
 
-    = 1.0.5 - June 30 2020 =
+    = 1.0.7 - September 17 2020 =
+    
+        * Renamed the plugin
+
+    = 1.0.6 - June 30 2020 =
     
         * Removed .btn.btn-primary from script. Now you can change the classes for example to btn-outline-primary, but keep class wpcf7-submit in send-button.
 
