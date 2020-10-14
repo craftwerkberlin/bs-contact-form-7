@@ -46,5 +46,8 @@ jQuery(document).ready(function ($) {
             $('button.wpcf7-submit').attr('disabled', 'disabled');
         }
     });
+    
+    // Remove <p></p> after .form-file
+    $('div.custom-file + p').hide();
 
 }); // jQuery End

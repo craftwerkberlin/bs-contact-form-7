@@ -5,7 +5,7 @@
  * Description: Adds Bootstrap alerts and checkboxes to Contact Form 7. It´s an additional plugin and needs https://de.wordpress.org/plugins/contact-form-7/ to work.
  * Author: Bastian Kreiter
  * Author URI: https://crftwrk.de
- * Version: 1.0.7
+ * Version: 1.0.8
  */
 
 
