@@ -3,9 +3,9 @@
 Contributors: craftwerk
 
 Requires at least: 4.5
-Tested up to: 5.5
+Tested up to: 5.6.2
 Requires PHP: 5.6
-Stable tag: 1.0.8
+Stable tag: 1.0.9
 License: GNU General Public License v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,10 @@ This adds Bootstrap alerts, custom Radio and checkboxes to Contact Form 7, Copyr
 Use HTML Markup like here https://bootscore.me/plugins/contact-form-7-for-bootscore/
 
 == Changelog ==
+
+    = 1.0.9 - February 27 2021 =
+    
+        * Ready for CF7 5.4
 
     = 1.0.8 - October 14 2020 =
     
